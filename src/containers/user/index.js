@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Navigation from '../../components/navigation';
-import EngagementContent from '../../components/engagement_content'; 
+import MiniNavBar from '../../components/navigation/mininavbar';
+import UserContent from '../../components/user_content'; 
 
 class User extends React.Component{
   render(){
     return(
       <div>
-        <Navigation/>
-        <EngagementContent />
+        <MiniNavBar/>
+        <UserContent />
       </div>
     )
   }

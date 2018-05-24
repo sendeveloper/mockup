@@ -84,6 +84,7 @@ html{
   background: #134eb3;
   width: 70px;
   height: 100vh;
+  box-shadow: inset -10px 0 15px -5px #333;
 }
 .miniNavBar ul {
   padding-left: 0px;

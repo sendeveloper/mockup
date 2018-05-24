@@ -11,6 +11,172 @@ body {
   line-height: 1.5;
 }
 
-button:disabled {
-  opacity: 0.5;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{
+  display: block;
+}
+
+body{
+  line-height: 1;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+blockquote, q{
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after{
+  content: '';
+  content: none;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a{
+  text-decoration: none;
+  outline: 0;
+}
+
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: sans-serif;
+}
+
+.miniNavBar{
+  float: left;
+  background: #134eb3;
+  width: 70px;
+  height: 100vh;
+}
+.miniNavBar ul {
+  padding-left: 0px;
+}
+  .miniNavBar ul li {
+    padding: 15px;
+  }
+  .miniNavBar ul li:nth-child-type(1){
+    padding-bottom: 30px;
+  }
+  .miniNavBar ul li a .small-img{
+    width: 35px;
+  }
+  .profile {
+    position: absolute;
+    bottom: 10px;
+  }
+  .profile a{
+    margin-left: 20px;
+  }
+  .profile a img{
+    width: 30px;
+  }
+
+.navbar{
+  background: #134eb3;
+  width: 307px;
+  float: left;
+  border-left: 1px solid #3064bc;
+  box-shadow: inset -10px 0 15px -5px #333;
+  display: block;
+  height: 100vh;
+}
+  .navbar h3{
+    font-size: 32px;
+    padding: 20px;
+    color: white;
+    margin: 0;
+  }
+  .navbar .menu{
+    list-style: none;
+    padding: 0 20px;
+  }
+  .navbar .menu li {
+    list-style-type: none;
+  }
+  .navbar .menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #EEE;
+    line-height: 1.8;
+  }
+  .navbar .menu li.active > a{
+    opacity: 0.6;
+  }
+  .navbar .menu li a:hover
+  {
+    opacity: 0.6;
+  }
+  .navbar .menu .active .submenu {
+    display: block;
+  }
+  .navbar .menu .submenu{
+    padding-left: 20px;
+    list-style: none;
+    display: none;
+  }
+  .navbar .menu .submenu li{
+    list-style-type: none;
+  }
+  .navbar .menu .submenu li a{
+    color: #EEE;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+.homeContainer{
+  width: 100%;
+  padding-left: 377px;
+}
+.homeContent{
+  padding: 40px;
+  height: 100vh;
+  background: #f9f9f9;
+}
+.homeContent h1{
+  font-size: 30px;
+}
+.homeView{
+  background: #FFF;
+  margin: 20px 0;
+  width: 100%;
+  height: calc(100vh - 120px);
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
 }

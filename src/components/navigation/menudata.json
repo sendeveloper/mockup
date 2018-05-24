@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Campaigns",
+		"url": "#"
+	},
+	{
+		"name": "Automations",
+		"url": "#"
+	},
+	{
+		"name": "Promotions",
+		"url": "#"
+	},
+	{
+		"name": "Assets",
+		"url": "#",
+		"submenu": [
+			{
+				"name": "Email Templates",
+				"url": "#"
+			},
+			{
+				"name": "Promotion Templates",
+				"url": "#"
+			},
+			{
+				"name": "Images",
+				"url": "#"
+			},
+			{
+				"name": "Survey",
+				"url": "#"
+			}
+		]
+	}
+]

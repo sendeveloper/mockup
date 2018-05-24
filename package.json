@@ -1,5 +1,5 @@
 {
-  "name": "create-react-app-redux",
+  "name": "Engagement",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -9,8 +9,11 @@
     "react-scripts": "^1.0.17"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
@@ -24,8 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "precommit": "lint-staged"
+    "eject": "react-scripts eject"
   },
   "homepage": "https://cra-redux-router-thunk.herokuapp.com",
   "lint-staged": {

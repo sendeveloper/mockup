@@ -5,7 +5,7 @@ class UserProfile extends React.Component {
   render() {
     return (
       <div className="profile">
-        <a href="home">
+        <a href="user">
           <img src={profile} className="small-img" />
         </a>
       </div>

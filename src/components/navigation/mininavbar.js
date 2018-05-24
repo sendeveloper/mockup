@@ -14,7 +14,7 @@ class MiniNavBar extends React.Component {
 			<div className="miniNavBar">
         <ul>
           <li>
-            <a href="engagement">
+            <a href="/">
               <img src={br} className="small-img"/>
             </a>
           </li>
@@ -24,22 +24,22 @@ class MiniNavBar extends React.Component {
             </a>
           </li>
           <li>
-            <a href="engagement">
+            <a href="#">
               <img src={broad} className="small-img"/>
             </a>
           </li>
           <li>
-            <a href="engagement">
+            <a href="#">
               <img src={aim} className="small-img"/>
             </a>
           </li>
           <li>
-            <a href="engagement">
+            <a href="#">
               <img src={light} className="small-img"/>
             </a>
           </li>
           <li>
-            <a href="engagement">
+            <a href="#">
               <img src={picture} className="small-img"/>
             </a>
           </li>

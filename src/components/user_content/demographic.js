@@ -33,9 +33,11 @@ class Demographic extends React.Component {
           </div>
         </div>
         <div className={"form-group " + (!this.state.open ? " hidden" : "")}>
-          <h3>Income</h3>
+          <h3>Gender</h3>
           <select>
             <option>All</option>
+            <option>Male</option>
+            <option>Female</option>
           </select>
         </div>
         <hr className="divider"/>

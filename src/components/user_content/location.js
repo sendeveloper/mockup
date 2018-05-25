@@ -21,6 +21,14 @@ class Location extends React.Component {
             <FontAwesome name="search" />
           </div>
         </div>
+        <div className={"form-group " + (!this.state.open ? " hidden" : "")}>
+          <div className="checkbox">
+            <label><input type="checkbox" />Chicago DMA</label>
+          </div>
+          <div className="checkbox">
+            <label><input type="checkbox" />Los Angeles DMA</label>
+          </div>
+        </div>
         <hr className="divider"/>
       </div>
     )

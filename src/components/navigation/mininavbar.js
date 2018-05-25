@@ -1,10 +1,10 @@
 import React from 'react';
 
 import UserProfile from './userprofile';
-import br from '../../images/br.png';
+import logo from '../../images/logo.png';
 import user from '../../images/user.png';
-import broad from '../../images/broadcasting.png';
-import aim from '../../images/aim.png';
+import engage from '../../images/engagement.png';
+import focus from '../../images/focus.png';
 import light from '../../images/light.png';
 import picture from '../../images/picture.png';
 
@@ -15,7 +15,7 @@ class MiniNavBar extends React.Component {
         <ul>
           <li>
             <a href="/">
-              <img src={br} className="small-img logo"/>
+              <img src={logo} className="small-img logo"/>
             </a>
           </li>
           <li>
@@ -25,12 +25,12 @@ class MiniNavBar extends React.Component {
           </li>
           <li>
             <a href="engagement">
-              <img src={broad} className="small-img"/>
+              <img src={engage} className="small-img"/>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={aim} className="small-img"/>
+              <img src={focus} className="small-img"/>
             </a>
           </li>
           <li>

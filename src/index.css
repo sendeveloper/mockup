@@ -140,6 +140,7 @@ input[type=range]::-webkit-slider-thumb{
   width: 70px;
   height: 100vh;
   box-shadow: inset -5px 0 10px -2px #333;
+  padding-top: 15px;
 }
 .miniNavBar ul {
   padding-left: 0px;
@@ -151,8 +152,11 @@ input[type=range]::-webkit-slider-thumb{
   .miniNavBar ul li:nth-child(1){
     padding-bottom: 40px;
   }
+  .miniNavBar ul li:not(:first-child) a{
+    opacity: 0.42;
+  }
   .miniNavBar ul li:not(:first-child) a:hover{
-    opacity: 0.6;
+    opacity: 1;
   }
   .miniNavBar ul li a .small-img{
     width: 26px;
@@ -182,7 +186,8 @@ input[type=range]::-webkit-slider-thumb{
   margin-bottom: 0px;
 }
   .navbar h3{
-    font-size: 32px;
+    font-size: 20px;
+    line-height: 52px;
     padding: 20px;
     color: white;
     margin: 0;

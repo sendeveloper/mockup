@@ -16,7 +16,7 @@ class Attributes extends React.Component {
           {this.state.open ? (<FontAwesome name="chevron-up"/>) : (<FontAwesome name="chevron-down"/>)}
         </a>
         <div className={"form-group " + (!this.state.open ? " hidden" : "")}>
-          <h3>Dayparts</h3>
+          <h3>Dayparts </h3>
           <div className="checkbox">
             <label><input type="checkbox" />Breakfast <span className="small-font">(open to 11am)</span></label>
           </div>

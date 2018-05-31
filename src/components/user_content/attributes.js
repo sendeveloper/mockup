@@ -8,6 +8,7 @@ class Attributes extends React.Component {
   openContent = () => {
     this.setState({open: !this.state.open});
   }
+  
   render() {
     return (
       <div className="searchAttributes">
